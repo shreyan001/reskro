@@ -1,0 +1,88 @@
+.safe-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .safe-sidebar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .safe-main {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .teammates-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .teammates-container input {
+    margin-right: 10px;
+  }
+  
+  .teammates-container .btn1 {
+    margin-left: 10px;
+  }
+  
+  .teammates-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .deposit-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .deposit-container input {
+    margin-right: 10px;
+  }
+  
+  .deposit-container select {
+    margin-right: 10px;
+  }
+  
+  .deposit-container .btn1 {
+    margin-left: 10px;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Remove default styles for input[type="number"] */
+  input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  } 
+  

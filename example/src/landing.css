@@ -1,0 +1,249 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #E6E3DC;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+  }
+  
+  .btn1{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8%;
+    gap: 10px;
+  }
+  
+  .text-holder{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+   
+  }
+  .hero h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 29.3px;
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+    }
+    
+    .hero p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18.9px;
+    color: black;
+    margin-bottom: 40px;
+    height: fit-content;
+    }
+    
+    .hero button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+
+  
+    .hero img {
+      width: 49%;
+      border-radius: 35px;
+      border: 5px solid black;
+
+    }
+  
+    .catalog-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .catalog-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .catalog-header h1 {
+      margin: 0;
+    }
+    
+    .add-button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .add-button:hover {
+      background-color: #333;
+    }
+    
+    .catalog-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap:3px
+    }
+    
+    .catalog-card {
+      width: calc(33.33% - 10px);
+      margin-bottom: 20px;
+      border-radius:10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    }
+    
+    .card-image {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    }
+    
+    .card-body {
+    padding: 20px;
+    }
+    
+    .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .card-contract {
+    font-size: 14px;
+    color: #666;
+    }
+  
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+    
+    .modal {
+      background-color: #E6E3DC;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+    
+    .modal h2 {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    
+    .modal label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .modal input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid rgb(178, 178, 178);
+    }
+    
+    .modal-buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+      gap: 5px;
+    }
+    
+  
+    .modal-buttons button:first-child {
+      background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+  
+    /* Custom scrollbar for Chrome */
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f2f2f2;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4d4d4d;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333;
+  }
+  
+    
+  
+    
