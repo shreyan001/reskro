@@ -95,7 +95,7 @@ async function createSafe() {
               Owner account
               
             </h1>
-            <IssueSafe yourAddress={safeAuthSignInResponse.eoa} previousSafes={safeAuthSignInResponse.safes} onSubmit={()=>{createSafe()}} />
+           
             <EthHashInfo
               address={safeAuthSignInResponse.eoa}
               showCopyButton
