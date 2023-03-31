@@ -14,8 +14,7 @@ const App = ()=> {
     <>
      <BrowserRouter>
      <Routes>
-        <Route path="/" Component={reskro} />
-        <Route path="/create" Component={Create} />
+        <Route path="/" Component={Create} />
         <Route path="/acount/:id" Component={Safe}/>
 </Routes>
     </BrowserRouter>
